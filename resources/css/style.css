@@ -8,14 +8,23 @@ body{
   font-weight: bold;
 }
 
+.footer{
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
+  text-align: left;
+}
+
 #header {
   background-image: URL("../the-flatiron-building.png");
   color: white;
 }
 
-#menu {
+.menu {
 
   font-weight: 18px;
+  font-size: 18px;
+  text-decoration: underline;
 
 }
 
@@ -35,6 +44,7 @@ h2{
   font-size: 32px;
 }
 p{
+  display: block;
   font-size: 14px;
 }
 
